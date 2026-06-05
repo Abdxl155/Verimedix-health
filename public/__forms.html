@@ -1,0 +1,56 @@
+<!--
+  Netlify Forms detection file.
+  On a static (exported) Next.js site, Netlify's form-detection bot parses
+  plain HTML at build time. These hidden forms register each form name and its
+  fields so submissions from the React forms are accepted. Do not delete.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Verimedix Forms</title>
+  </head>
+  <body>
+    <form name="general-enquiry" netlify netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="general-enquiry" />
+      <input type="text" name="bot-field" />
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="organisation" />
+      <input type="tel" name="phone" />
+      <textarea name="message"></textarea>
+    </form>
+
+    <form name="sales-enquiry" netlify netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="sales-enquiry" />
+      <input type="text" name="bot-field" />
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="organisation" />
+      <input type="text" name="sector" />
+      <textarea name="message"></textarea>
+    </form>
+
+    <form name="procurement-enquiry" netlify netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="procurement-enquiry" />
+      <input type="text" name="bot-field" />
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="organisation" />
+      <input type="text" name="role" />
+      <input type="text" name="volume" />
+      <textarea name="message"></textarea>
+    </form>
+
+    <form name="distributor-enquiry" netlify netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="distributor-enquiry" />
+      <input type="text" name="bot-field" />
+      <input type="text" name="company" />
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="country" />
+      <input type="text" name="website" />
+      <textarea name="message"></textarea>
+    </form>
+  </body>
+</html>
