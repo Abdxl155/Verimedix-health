@@ -116,7 +116,7 @@ export default function Hero() {
               className="relative mx-auto w-[78%] drop-shadow-[0_40px_60px_rgba(3,17,43,0.18)]"
             >
               <Image
-                src="/images/meter.png"
+                src="/images/meter-transparent.png"
                 alt="Verimedix Blood Glucose Meter showing a reading of 5.8 mmol/L"
                 width={580}
                 height={780}
