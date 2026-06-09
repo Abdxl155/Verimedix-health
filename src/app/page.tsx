@@ -94,7 +94,7 @@ export default function HomePage() {
             <div className="relative overflow-hidden rounded-3xl border border-mist-200 bg-gradient-to-br from-mist-50 to-white p-10">
               <div className="pointer-events-none absolute -right-10 -top-10 h-48 w-48 rounded-full bg-teal-100/60 blur-2xl" />
               <Image
-                src="/images/meter.png"
+                src="/images/meter-transparent.png"
                 alt="Verimedix Blood Glucose Meter, front view"
                 width={580}
                 height={780}
