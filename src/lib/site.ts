@@ -8,8 +8,8 @@ export const SITE = {
   tagline: "Reliable Blood Glucose Monitoring for Modern Healthcare",
   description:
     "Verimedix Health supplies dependable blood glucose monitoring solutions for NHS trusts, GP surgeries, pharmacies, care homes and clinical teams across the UK and Europe.",
-  email: "info@verimedix-health.com",
-  procurementEmail: "procurement@verimedix-health.com",
+  email: "abdxlmageed@gmail.com",
+  procurementEmail: "abdxlmageed@gmail.com",
   phone: "+44 (0)20 0000 0000",
   addressLine1: "Verimedix Health UK Ltd",
   addressLine2: "London, United Kingdom",
