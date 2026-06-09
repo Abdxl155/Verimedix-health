@@ -54,7 +54,7 @@ export default function ProductPage() {
               <div className="pointer-events-none absolute -left-10 -top-10 h-48 w-48 rounded-full bg-teal-100/60 blur-2xl" />
               <div className="pointer-events-none absolute -bottom-10 -right-10 h-48 w-48 rounded-full bg-brand-100/60 blur-2xl" />
               <Image
-                src="/images/meter.png"
+                src="/images/meter-transparent.png"
                 alt="Verimedix Blood Glucose Meter displaying 5.8 mmol/L"
                 width={580}
                 height={780}
@@ -220,7 +220,7 @@ export default function ProductPage() {
           <div className="lg:col-span-5">
             <div className="relative mx-auto w-full max-w-xs overflow-hidden rounded-2xl border border-mist-200 bg-white p-8 shadow-card">
               <Image
-                src="/images/meter.png"
+                src="/images/meter-transparent.png"
                 alt="Verimedix Blood Glucose Meter"
                 width={580}
                 height={780}
